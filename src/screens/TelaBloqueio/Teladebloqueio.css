@@ -1,0 +1,39 @@
+.bloqueio {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: flex-end;
+  padding: 0 0 7rem 5rem;
+}
+
+.bloqueio::before {
+  content: "";
+  position: absolute;
+  inset: -20px;
+  z-index: -1;
+  background: url("../../assets/wallpapers/bloqueio.webp") center / cover no-repeat;
+  filter: blur(0px);
+  transition: filter 0.8s ease;
+}
+
+.bloqueio.com-borrao::before {
+  filter: blur(10px);
+}
+.bloqueio.remove-borrao::before {
+  filter: blur(0px);
+}
+
+.hora-data{
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}.hora-data h1{
+  font-weight: 300;
+  font-size: 8rem;
+}.hora-data p{
+  font-size: 2.5rem;
+  font-weight: 300;
+}

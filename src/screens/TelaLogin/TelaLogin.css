@@ -1,0 +1,76 @@
+.login{
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+}.login.remove{
+  display: none;
+}.card-login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}.card-login img{
+  width: 150px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  box-shadow: 3px 3px 10px #ffffff48;
+  margin-bottom: 10px;
+}.card-login h4{
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  font-size: 28px;
+  color: #fff;
+  margin-bottom: 20px;
+}.card-login p{
+  position: absolute;
+  top: 19rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}.input-box{
+  height: 40px;
+  margin-bottom: 10px;
+  padding: 0 10px 0 10px;
+  background-color: #ffffff69;
+  border-radius: 5px;
+  border: 1px solid #ffffffbe;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}.input-box input{
+  height: 100%;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: #000;
+}.input-box i{
+  cursor: pointer;
+}.card-login button{
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  transition: 0.5s;
+}.card-login button:hover{
+  transform: translateY(-4px);
+}
+.card-login h5{
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.card-login .button{
+  background-color: #ffffff2d;
+  border: 1px solid #fff;
+  color: #fff;
+  backdrop-filter: blur(8px);
+  font-weight: 500;
+}

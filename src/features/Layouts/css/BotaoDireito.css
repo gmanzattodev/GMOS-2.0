@@ -1,0 +1,42 @@
+.direito{
+    background-color: rgba(0, 0, 0, 0.384);
+    overflow: hidden;
+    padding: 10px;
+    height: 340px;
+    border-radius: 10px;
+    border: 1px solid #ffffffa2;
+}
+.cards-direito{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 10px;
+    align-items: center;
+}
+.cards-direito button{
+    padding: 10px 20px;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border: none;
+    border-radius: 0px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.cards-direito hr{
+    width: 80%;
+    height: 1px;
+    border: none;
+    background-color: #ffffff60;
+}
+.cards-direito button:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.cards-direito button i{
+    font-size: 20px;
+    color: #fff;
+}
