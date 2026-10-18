@@ -34,6 +34,15 @@ Estou explorando uma interface com aparência cinematográfica, fundos marcantes
 
 As animações com **GSAP** fazem parte dessa experiência: entrada e saída de elementos, transições entre telas e feedback visual para as ações do usuário.
 
+## Novidades da interface
+
+As interações mais recentes que criei para o desktop são:
+
+- **Dock de aplicativos:** uma área com ícones para reunir os aplicativos do GM OS 2.0.
+- **Card de clique direito:** ao clicar com o botão direito na área de trabalho, aparece um card de menu contextual.
+
+Esses recursos fazem parte da construção do meu portfólio e ampliam a experiência de usar um desktop dentro do navegador.
+
 ## O que estou desenvolvendo
 
 Com base nas etapas que venho construindo e estudando:
@@ -44,6 +53,8 @@ Com base nas etapas que venho construindo e estudando:
 | **Tela de login** | Validação demonstrativa de senha, alternância de visibilidade e feedback de erro |
 | **Área de trabalho** | Ambiente visual próprio para reunir os recursos do sistema |
 | **Painel de Wi-Fi** | Botão de ligar/desligar, seleção de redes e indicação de conexão |
+| **Dock de aplicativos** | Dock criado com ícones para os aplicativos do ambiente |
+| **Menu contextual** | Card exibido ao clicar com o botão direito na área de trabalho |
 | **Controle de volume** | Barra de ajuste com ícones que mudam conforme o nível |
 | **Transições** | Animações suaves entre telas e estados da interface |
 
@@ -67,7 +78,9 @@ Cada recurso é uma oportunidade de aprofundar meus conhecimentos:
 - Organizar a interface em componentes.
 - Controlar estados com `useState`.
 - Atualizar informações com efeitos e temporizadores.
-- Trabalhar com eventos de clique, teclado e formulários.
+- Trabalhar com eventos de clique, clique direito (`onContextMenu`), teclado e formulários.
+- Posicionar um menu contextual a partir das coordenadas do cursor.
+- Renderizar os ícones do dock a partir de uma lista de aplicativos.
 - Renderizar elementos conforme as ações do usuário.
 - Selecionar itens de listas e representar seus estados na tela.
 - Integrar animações à lógica do React.
@@ -77,6 +90,8 @@ Meu objetivo é entender o funcionamento de cada parte e evoluir o projeto com p
 
 ## Próximas etapas
 
+- [x] Criar o dock de aplicativos.
+- [x] Criar o card exibido com o botão direito na área de trabalho.
 - [ ] Publicar o código inicial da versão 2.0.
 - [ ] Integrar o fluxo de bloqueio → login → desktop.
 - [ ] Refinar os painéis de Wi-Fi e volume.
