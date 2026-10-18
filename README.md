@@ -93,8 +93,8 @@ Meu objetivo é entender o funcionamento de cada parte e evoluir o projeto com p
 - [x] Criar o dock de aplicativos.
 - [x] Criar o card exibido com o botão direito na área de trabalho.
 - [ ] Publicar o código inicial da versão 2.0.
-- [ ] Integrar o fluxo de bloqueio → login → desktop.
-- [ ] Refinar os painéis de Wi-Fi e volume.
+- [x] Integrar o fluxo de bloqueio → login → desktop.
+- [x] Refinar os painéis de Wi-Fi e volume.
 - [ ] Evoluir a organização da área de trabalho.
 - [ ] Expandir os recursos e aplicativos do ambiente.
 - [ ] Melhorar responsividade e acessibilidade.
