@@ -1,120 +1,116 @@
 <div align="center">
 
-# GM OS 2.0
-### Minha nova experiência de sistema operacional na web.
+# 🖥️ GM OS 2.0
 
-Estou criando um ambiente de desktop interativo com **HTML, CSS, JavaScript, React e GSAP**.
+### Uma experiência de desktop construída para o navegador.
 
-<img src="https://img.shields.io/badge/versão-2.0-38bdf8?style=for-the-badge" alt="Versão 2.0" />
-<img src="https://img.shields.io/badge/status-em_desenvolvimento-eab308?style=for-the-badge" alt="Em desenvolvimento" />
+**Meu portfólio em evolução, inspirado na interação de um sistema operacional.**
 
-<br /><br />
+<img src="https://img.shields.io/badge/status-em_desenvolvimento-f59e0b?style=for-the-badge" alt="Em desenvolvimento" />
+<img src="https://img.shields.io/badge/React-19-61dafb?style=for-the-badge&logo=react&logoColor=white" alt="React 19" />
+<img src="https://img.shields.io/badge/Vite-8-646cff?style=for-the-badge&logo=vite&logoColor=white" alt="Vite 8" />
+<img src="https://img.shields.io/badge/GSAP-animações-88ce02?style=for-the-badge" alt="Animações com GSAP" />
 
-<img src="https://skillicons.dev/icons?i=html,css,js,react" alt="HTML, CSS, JavaScript e React" />
-
-**Interface própria · Animações · Interatividade · Evolução**
+[Explorar o código](./src) · [Primeira versão](https://github.com/gmanzattodev/GMOS) · [Meu GitHub](https://github.com/gmanzattodev)
 
 </div>
 
 ---
 
-## Sobre o projeto
+## ✨ Sobre o projeto
 
-O **GM OS 2.0** é a nova versão do meu projeto de sistema operacional web. Estou construindo uma experiência que começa na tela de bloqueio, passa pelo login e chega a uma área de trabalho com interações próprias.
+O **GM OS 2.0** é um ambiente de desktop interativo desenvolvido com **React, JavaScript, CSS, Vite e GSAP**. Estou construindo um portfólio que permite explorar uma interface inspirada em sistemas operacionais, com identidade visual própria e interações feitas componente por componente.
 
-Quero transformar meus conhecimentos de front-end em um projeto que vá além de páginas tradicionais: um ambiente navegável, com estados, transições e componentes que trabalham juntos.
+A experiência começa na tela de bloqueio, passa por um login demonstrativo e chega à área de trabalho. Cada etapa reúne desafios de front-end: gerenciamento de estado, eventos de teclado e mouse, renderização condicional, temporizadores e animações.
 
-Esta versão tem seu próprio repositório. A primeira versão continua disponível no [GM OS 1.0](https://github.com/gmanzattodev/GMOS).
+## 🔓 Da tela de bloqueio ao desktop
 
-> 🚧 **Projeto em desenvolvimento.** Este repositório começa com a documentação; o código da nova versão será adicionado durante sua evolução.
-
-## A identidade do GM OS 2.0
-
-Estou explorando uma interface com aparência cinematográfica, fundos marcantes, transparência, desfoque e movimento. A ideia é desenvolver uma composição própria para a área de trabalho e cuidar dos pequenos detalhes de cada interação.
-
-As animações com **GSAP** fazem parte dessa experiência: entrada e saída de elementos, transições entre telas e feedback visual para as ações do usuário.
-
-## Novidades da interface
-
-As interações mais recentes que criei para o desktop são:
-
-- **Dock de aplicativos:** uma área com ícones para reunir os aplicativos do GM OS 2.0.
-- **Card de clique direito:** ao clicar com o botão direito na área de trabalho, aparece um card de menu contextual.
-
-Esses recursos fazem parte da construção do meu portfólio e ampliam a experiência de usar um desktop dentro do navegador.
-
-## O que estou desenvolvendo
-
-Com base nas etapas que venho construindo e estudando:
-
-| Parte da interface | Experiência em desenvolvimento |
+| Etapa | O que já está no código |
 | --- | --- |
-| **Tela de bloqueio** | Hora e data atualizadas, com transição de desbloqueio |
-| **Tela de login** | Validação demonstrativa de senha, alternância de visibilidade e feedback de erro |
-| **Área de trabalho** | Ambiente visual próprio para reunir os recursos do sistema |
-| **Painel de Wi-Fi** | Botão de ligar/desligar, seleção de redes e indicação de conexão |
-| **Dock de aplicativos** | Dock criado com ícones para os aplicativos do ambiente |
-| **Menu contextual** | Card exibido ao clicar com o botão direito na área de trabalho |
-| **Controle de volume** | Barra de ajuste com ícones que mudam conforme o nível |
-| **Transições** | Animações suaves entre telas e estados da interface |
+| **Bloqueio** | Hora e data atualizadas, desbloqueio por clique ou barra de espaço e transição com GSAP |
+| **Login** | Mostrar e ocultar senha, aviso de Caps Lock, feedback de erro e bloqueio de 10 segundos após 5 tentativas incorretas |
+| **Desktop** | Papel de parede, barra superior, Dock e menu contextual |
+| **Wi-Fi** | Painel com liga/desliga e seleção entre três redes simuladas |
+| **Volume** | Controle visual de 0 a 100 com ícone que acompanha o nível |
+| **Dock** | Oito atalhos com alternância de estado e indicador visual |
+| **Clique direito** | Menu na posição do cursor, com cálculo para limitar sua posição nas bordas da tela |
 
-Esses itens descrevem o trabalho em andamento e não uma lista de funcionalidades já publicadas neste repositório.
+> **Estado atual:** o Dock alterna os IDs dos aplicativos e seus indicadores. As janelas e funcionalidades internas dos apps ainda não estão renderizadas no desktop. Os botões do menu contextual também aguardam a implementação de suas ações.
 
-## Tecnologias
+## 🎨 Identidade visual
 
-| Tecnologia | Como estou utilizando |
+Papéis de parede, ícones próprios, transparências e efeitos de desfoque compõem a interface. O movimento faz parte da navegação: a transição de desbloqueio usa **GSAP**, integrado ao React por meio de **@gsap/react**.
+
+O objetivo é cuidar tanto da aparência quanto do comportamento de cada interação.
+
+## ⚙️ Tecnologias
+
+| Tecnologia | Aplicação no projeto |
 | --- | --- |
-| **HTML / JSX** | Estrutura das telas e dos componentes |
-| **CSS** | Layout, responsividade, transparência e efeitos visuais |
-| **JavaScript** | Eventos, condições e lógica das interações |
-| **React** | Componentes, estados, efeitos e renderização condicional |
-| **GSAP** | Animações e sequências de transição |
-| **Git e GitHub** | Versionamento e registro da evolução |
+| **React 19** | Componentes, estados, efeitos e composição das telas |
+| **JavaScript / JSX** | Lógica de interação, eventos e renderização |
+| **CSS** | Layout, estilização e efeitos visuais |
+| **GSAP + @gsap/react** | Animação de desbloqueio com escopo e `contextSafe` |
+| **Vite** | Ambiente de desenvolvimento e build |
+| **ESLint** | Análise estática do código |
+| **GitHub Actions** | Workflow de build e publicação no GitHub Pages |
 
-## Aprendendo enquanto construo
+## 🗂️ Organização do código
 
-Cada recurso é uma oportunidade de aprofundar meus conhecimentos:
+| Caminho | Responsabilidade |
+| --- | --- |
+| [`src/app`](./src/app) | Entrada da aplicação e estilos globais |
+| [`src/screens/TelaBloqueio`](./src/screens/TelaBloqueio) | Relógio, data e animação de desbloqueio |
+| [`src/screens/TelaLogin`](./src/screens/TelaLogin) | Login demonstrativo e controle de tentativas |
+| [`src/screens/Desktop`](./src/screens/Desktop) | Composição da área de trabalho e estados compartilhados |
+| [`src/features/Layouts`](./src/features/Layouts) | Barra superior, Dock e menu contextual |
+| [`src/features/wifi`](./src/features/wifi) | Painel e estados das redes simuladas |
+| [`src/assets`](./src/assets) | Ícones, foto de perfil e papéis de parede |
 
-- Organizar a interface em componentes.
-- Controlar estados com `useState`.
-- Atualizar informações com efeitos e temporizadores.
-- Trabalhar com eventos de clique, clique direito (`onContextMenu`), teclado e formulários.
-- Posicionar um menu contextual a partir das coordenadas do cursor.
-- Renderizar os ícones do dock a partir de uma lista de aplicativos.
-- Renderizar elementos conforme as ações do usuário.
-- Selecionar itens de listas e representar seus estados na tela.
-- Integrar animações à lógica do React.
-- Melhorar layouts e adaptar a experiência a diferentes telas.
+## 🧠 O que estou praticando
 
-Meu objetivo é entender o funcionamento de cada parte e evoluir o projeto com prática.
+- Dividir uma interface em componentes com responsabilidades claras.
+- Compartilhar dados e ações por props.
+- Usar `useState`, `useEffect` e `useRef` em interações reais.
+- Atualizar relógios e contagens regressivas com limpeza dos temporizadores.
+- Renderizar listas e alternar itens de um array sem mutar o estado.
+- Trabalhar com coordenadas do cursor e limites da janela.
+- Integrar animações GSAP ao ciclo de vida do React.
+- Organizar recursos por telas e funcionalidades.
 
-## Próximas etapas
+## 🚧 Evolução do GM OS
 
-- [x] Criar o dock de aplicativos.
-- [x] Criar o card exibido com o botão direito na área de trabalho.
-- [ ] Publicar o código inicial da versão 2.0.
-- [x] Integrar o fluxo de bloqueio → login → desktop.
-- [x] Refinar os painéis de Wi-Fi e volume.
-- [ ] Evoluir a organização da área de trabalho.
-- [ ] Expandir os recursos e aplicativos do ambiente.
-- [ ] Melhorar responsividade e acessibilidade.
-- [ ] Revisar animações e desempenho.
-- [ ] Publicar uma demonstração navegável.
+- [x] Publicar o código da versão 2.0.
+- [x] Integrar bloqueio → login → desktop.
+- [x] Criar a transição de desbloqueio com GSAP.
+- [x] Implementar feedback e limite de tentativas no login.
+- [x] Criar os painéis simulados de Wi-Fi e volume.
+- [x] Criar o Dock com indicadores de estado.
+- [x] Exibir o menu contextual com posicionamento limitado pelas bordas.
+- [x] Adicionar o workflow de publicação no GitHub Pages.
+- [ ] Conectar os atalhos do Dock às janelas dos aplicativos.
+- [ ] Desenvolver o Gerenciador de Arquivos.
+- [ ] Implementar Terminal, Notas, Calculadora e outros apps.
+- [ ] Adicionar ações aos botões do menu contextual.
+- [ ] Evoluir foco, sobreposição e gerenciamento de múltiplas janelas.
+- [ ] Aprimorar responsividade, acessibilidade e navegação por teclado.
 
-## Acompanhar o desenvolvimento
+## 📌 Sobre a simulação
 
-O código, as instruções para execução local e as capturas da interface serão adicionados conforme a nova versão for publicada.
+O GM OS 2.0 é uma aplicação front-end executada no navegador. O login é demonstrativo, com validação no cliente; Wi-Fi e volume representam estados visuais da interface, sem controlar a rede ou o volume do dispositivo.
 
-O GM OS 2.0 é uma simulação de ambiente de sistema operacional executada no navegador. Recursos como Wi-Fi representam interações da interface; o login demonstrativo faz parte dos estudos de front-end.
+O repositório contém um workflow que executa `npm ci`, gera o build com `npm run build` e envia a pasta `dist` para o GitHub Pages.
 
-## Autor
+## 👨‍💻 Autor
 
-Criado por **Giovani Manzatto** — [@gmanzattodev](https://github.com/gmanzattodev).
+Desenvolvido por **Giovani Manzatto** — [@gmanzattodev](https://github.com/gmanzattodev).
 
-Sugestões sobre interface, animações e organização do código são bem-vindas.
+Este projeto registra minha evolução como desenvolvedor front-end, transformando estudo em uma experiência interativa para o meu portfólio.
 
 ---
 
 <div align="center">
-<strong>GM OS 2.0 — uma nova versão, construída componente por componente.</strong>
+
+**GM OS 2.0 · Construindo minha própria experiência, componente por componente.**
+
 </div>
